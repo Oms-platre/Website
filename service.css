@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+img
+{
+    border-radius: 3px;
+}
+/* css header*/
+#div1
+{
+    text-align: center;
+    padding: 0.4%;
+    background-color: rgba(23, 65, 129, 0.938);
+    color:rgb(205, 204, 204);
+    font-size: 9pt;
+}
+#div2 
+{   
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding:2.5% 10%;
+    background-image:  linear-gradient(to left, lightskyblue , rgb(20, 115, 223)); 
+    z-index: 100;
+}
+#logo 
+{
+    position: relative;
+    font-size: 240%;
+    
+}
+#logo > a
+{
+   
+    color: whitesmoke;
+}
+#tele 
+{
+    text-align: center;
+   background-color: rgb(241, 238, 62);
+   width:auto;
+   padding: 1%;
+   position: relative;
+   border-radius: 3px;
+   color: rgb(20, 115, 223);
+}
+#div3
+{
+    justify-items: center;
+  
+}
+#menu
+{
+    border-radius:0px 0px 3px 3px;
+    position: relative;
+    list-style: none;
+    margin: auto;
+    padding: 0% 20%;
+    display: flex;
+    width: 40%;
+    background-image: linear-gradient(to top, rgb(225, 225, 225) ,rgb(246, 246, 246));
+    
+}
+#menu > a 
+{
+    font-size: 14pt;
+    margin: auto ;
+    padding: 2.3%;
+    border-bottom: 2px solid rgb(225, 225, 225);
+    color: rgb(127, 127, 127);
+}
+
+#menu > a:hover
+{
+ border-bottom: 2px solid rgb(38, 126, 226);
+ 
+}
+
+/* css header */ 
+#section0
+{
+    background-color: rgb(242, 247, 249);
+    text-align: center;
+    position: relative;
+    width: 60%;
+    margin: auto;
+    padding:4% 10%;
+    border-radius: 0 0 3px 3px;
+    
+}
+#section0 > h1
+{
+    position: relative;
+    font-size: 3em;
+    padding-bottom: 2%;
+    color: rgb(41, 41, 41);
+    
+}
+#section0 > b
+{
+    color: rgb(150, 150, 150);
+    font-size: 10pt;
+}
+#section1
+{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+#section1>div
+{
+    display: flex;
+    justify-content: space-between;
+}
+#section1>div>div:nth-child(1)
+{
+    position: relative;
+    width: 20%;
+    padding:5% 0%;
+}
+#section1>div>div:nth-child(2)
+{
+    position: relative;
+    width:78%;
+}
+#section1>div>div:nth-child(1) ul
+{
+    list-style: none; 
+}
+#section1>div>div:nth-child(1) ul li 
+{
+    position: relative;
+    background-color:rgb(235, 241, 243);
+    margin-bottom: 3%;
+    padding: 5% 4%;
+    cursor: pointer;
+}
+
+#section1>div>div:nth-child(2)>div
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+#section1>div>div:nth-child(2)>div>div:nth-child(1)
+{
+    position: relative;
+    width: 55%;
+    color: gray; 
+    padding:6% 0%;
+}
+
+#section1>div>div:nth-child(2)>div>div:nth-child(2)
+{
+    position: relative;
+    width:43%;
+    padding:6% 0%;
+  
+}
+#section1>div>div:nth-child(2)>div>div:nth-child(1) h1
+{
+    position: relative;
+    color: black;
+    margin-bottom: 2%;
+    font-size: 1.6em;
+}
+#section1>div>div:nth-child(2)>div img 
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 4%;
+}
+#servicediv1 a
+{
+    color: gray;
+}
+#servicediv1 a:hover
+{
+    text-decoration: underline;
+    color: rgb(38, 126, 226);
+}
+/* footer */
+footer
+{
+    margin-top:2% ;
+    position: relative;
+    display: flex;
+    padding: 4% 10%;
+    justify-content: space-between;
+    background-color: beige;
+    width: 80%;
+}
+footer>div
+{ 
+   
+    position: relative;
+    width: 30.33%;
+}
+
+footer>div>p
+{
+    margin-top: 3%;
+    color: gray;
+    line-height: 26px;
+}
+footer>div>p>b
+{
+    color:rgb(72, 155, 250) ;
+    font-size: 2em;
+    padding: 2%;
+    line-height: 40px;
+
+}
+footer ul
+{
+
+    list-style: none;
+}
+footer ul li
+{
+    position: relative;
+    margin:6% 0%;
+    color: gray;
+}
+footer iframe
+{
+    position: relative;
+    border: 0;
+    width:100%;
+    height:200px ;
+}
+/* footer */
+@media screen and (max-width: 724px) 
+{
+    /* css header*/
+    *{
+        font-size: 12pt;
+    }
+   #div2
+   {
+       padding :8% 6%;
+       display: block;
+       text-align: center;
+       
+   }
+  
+    #menu
+    {
+        display:block;
+        padding:0% 6%;
+        margin: 0%;
+        width: auto;
+        background-image: linear-gradient(-25deg, rgb(225, 225, 225) ,rgb(246, 246, 246));
+    }
+    #menu li:hover
+    {
+        border-bottom: 2px solid rgb(38, 126, 226);
+    }
+    #menu > a:hover
+    {
+        border-bottom:none;
+    
+    }
+    #tele
+    {
+        position: relative;
+        border-radius: 0px;
+        height: 4%;
+        margin:4% auto;
+        position: relative;
+        width: 50%;
+        
+    }
+    #logo>a>b
+    {
+        font-size: 240%;
+    }
+ 
+    /* css header*/
+    #section0
+    {
+        width: 100%;
+        padding: 10% 0%;
+    }
+    #section0 h1
+    {
+        font-size: 2.26em;
+    }
+    #section0 b 
+    {
+        font-size: 8pt;
+    }
+    #section1
+    {
+        margin:10% auto;
+    }
+    #section1>div
+    {
+        display: block;
+    }
+    #section1>div>div:nth-child(1)
+    {
+        margin-bottom: 13%;
+        width: 100%;
+    }
+    #section1>div>div:nth-child(2)
+    {
+        width:100%;
+    }
+    #section1>div>div:nth-child(2)>div
+    {
+        display: block;
+        
+    }
+    #section1>div>div:nth-child(2)>div>div:nth-child(1)
+    {
+        width: 100%;
+        margin-bottom: 6%;   
+    }
+    
+    #section1>div>div:nth-child(2)>div>div:nth-child(2)
+    {
+        width:100%;
+    }
+    #section1>div>div:nth-child(2)>div>div:nth-child(1) h1
+    {
+        font-size: 1.4em;
+    }
+    /* footer */
+    footer
+   {
+        position: relative;
+        padding: 8% 10%;
+        display: block;
+       
+   }
+   footer>div
+   {
+      margin-bottom: 10%;
+       width: 100%;
+   }
+   footer>div li 
+   {
+    margin:6% 0%;
+   }
+}
